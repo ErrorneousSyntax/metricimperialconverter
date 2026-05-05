@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    background-color: #1C1C1C;
+    align-self: center;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    font-family: "Inter", sans-serif;
+
+}
+
+.container{
+    width:550px;
+}
+
+.upperBox{
+    width:100%;
+    background-color: #6943FF;
+}
+
+.inputTitle{
+    padding-top:50px;
+    /* text */
+    color:white;
+    font-weight: 800;
+    font-size:28px;
+    display: flex;
+    justify-content: center;
+}
+
+.input-row{
+    display:flex;
+    justify-content: center;
+}
+.input-box{
+    width:117px;
+    height: 83px;
+    display:flex;
+    justify-content: center;
+    border-color: #B295FF;
+    border-width: 2px;
+    border-radius:5px;
+    background:#6943FF;
+    margin:25px; 
+    color:white;
+    font-size: 58;
+    font-weight:bold;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+
+
+.convert{
+    width:117px;
+    height: 42px;
+    color: #3D3D3D;
+    font-size: large;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;     /* vertical */
+
+    border-radius:5px;
+    border-width:0px;
+
+    margin-bottom:34px;
+
+    /* fancies */
+    cursor: pointer;
+    transition: transform 0.15s;
+    transform-style: preserve-3d;
+}
+.convert:hover {
+    background-color: #9AABD8;
+    color: #1B244A;
+    transform: perspective(500px) rotateX(10deg) rotateY(-10deg) scale(1.05);
+}
+.convert:active {
+  transform: scale(0.9);
+}
+.convert:focus {
+  outline: none;
+}
+
+
+
+
+
+.lowerBox {
+    width: 100%;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.outputContainer {
+    width: 500px;
+    padding: 36px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    align-items: center;
+}
+
+.outputBox {
+    width: 500px;
+    height: 108.57px;
+    background-color: #273549;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.output-content{
+    color: white;
+    font-size:normal;
+    display:flex;
+    justify-content: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.output-title{
+    color: #CCC1FF;
+    font-size:large;
+    align-items: center;
+
+}
+
