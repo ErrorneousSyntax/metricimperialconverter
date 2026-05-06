@@ -11,6 +11,18 @@ convertEl.addEventListener("click",function(){
     converter(input)
 })
 
+
+inputEl.addEventListener("input", function(){
+    inputBox.style.fontSize="48px"
+    
+    while (inputBox.scrollWidth > inputBox.clientWidth && parseInt(inputBox.style.fontSize) > 16) {
+        inputBox.style.fontSize = parseInt(inputBox.style.fontSize) - 2 + "px"
+    }
+})
+
+
+
+
 /*
 1 meter = 3.281 feet
 1 liter = 0.264 gallon
@@ -56,3 +68,4 @@ function convertMass(mass){
         </div>
     `
 }
+

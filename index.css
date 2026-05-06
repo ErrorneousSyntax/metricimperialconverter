@@ -32,23 +32,23 @@ body {
     display:flex;
     justify-content: center;
 }
-.input-box{
-    width:117px;
-    height: 83px;
-    display:flex;
-    justify-content: center;
-    border-color: #B295FF;
-    border-width: 2px;
-    border-radius:5px;
-    background:#6943FF;
-    margin:25px; 
-    color:white;
-    font-size: 58;
-    font-weight:bold;
-    justify-content: center;
-    text-align: center;
-}
 
+
+input-box {
+    width: 117px;
+    height: 83px;
+    box-sizing: border-box;
+
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background: #6943FF;
+
+    color: white;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    padding: 0 6px;
+}
 
 
 
